@@ -1,3 +1,4 @@
+/*jslint node:true */
 'use strict';
 
 /*
@@ -17,6 +18,7 @@ Upload.register(function(app, auth, database) {
     //We enable routing. By default the Package Object is passed to the routes
     Upload.routes(app, auth, database);
 
+    /*
     Upload.aggregateAsset('js', '../lib/danialfarid-angular-file-upload/dist/angular-file-upload-shim.min.js', {
         absolute: false
     });
@@ -27,6 +29,7 @@ Upload.register(function(app, auth, database) {
     Upload.aggregateAsset('css', '../css/meanUpload.css', {
         absolute: false
     });
+    */
 
     Upload.angularDependencies(['angularFileUpload']);
 
