@@ -7,6 +7,15 @@ In the root of your meanio site, run:
 mean install upload
 ```
 
+#### gbevan fork
+```
+mkdir packages/contrib
+cd packages/contrib
+git clone https://github.com/gbevan/upload.git
+cd upload
+npm install
+```
+
 ### Callbacks
 The package provides two callbacks:
 - uploadFileCallback: Fires when each file is successfuly uploaded
