@@ -1,4 +1,5 @@
 {
+  "registry": "https://registry.bower.io",
   "directory": "public/assets/lib",
   "storage": {
           "packages": ".bower-cache",
